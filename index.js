@@ -21,6 +21,11 @@ app.use(registerRoutes);
 app.listen(PORT);
 console.log("Server is running on port", PORT);
 console.log("Variables de entorno cargadas:", process.env);
-console.log("EMAIL_USER:", process.env.EMAIL_USER); //me sale undefined
-console.log("EMAIL_PASS:", process.env.EMAIL_PASS); //me sale undefined
+console.log("EMAIL_USER:", process.env.EMAIL_USER); 
+console.log("EMAIL_PASS:", process.env.EMAIL_PASS);
+console.log("MYSQLPASSWORD:", process.env.MYSQLPASSWORD); 
+console.log("MYSQLPORT:", process.env.MYSQLPORT);
+console.log("MYSQLHOST:", process.env.MYSQLHOST); 
+console.log("MYSQLDATABASE:", process.env.MYSQLDATABASE); 
+console.log("MYSQLUSER:", process.env.MYSQLUSER); 
 console.log("Directorio de trabajo:", process.cwd());
