@@ -46,7 +46,7 @@ export const createRegister = async (req, res) => {
       });
     }
 
-    const limit = 332;
+    const limit = 304;
     if (totalPeople + numPeopleToRegister > limit) {
       return res.status(401).json({
         errorCode: "LIMIT_EXCEEDED",

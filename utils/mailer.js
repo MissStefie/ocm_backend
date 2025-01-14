@@ -28,7 +28,11 @@ export const sendMail = async (name, email, num_people, id) => {
         <h1>Tu nro. de entrada es: ${id}</h1>
         <p>Hemos recibido el registro de ${num_people} persona(s) para el evento:</p>
         <p>Musical de películas</p>
-        <p>Fecha: 04/12/24 a las 20:00hs</p>
+        <p>Fecha: Miércoles 22/01/25 a las 20:00hs</p>
+        <p>¡RECUERDA! Es un evento gratuito y te pedimos que puedas asegurar tu asistencia y la de tus acompañantes para no dejar ningún lugar vacío.</p>
+        <p>En el día se te estará escribiendo para confirmar la asistencia una vez más.</p>
+        <p>Se pide llegar con treinta minutos de antelación, a modo de acomodarse correctamente en los lugares.</p>
+        <p>¡Muchas gracias!</p>
         <p>Si necesitas más información, contáctanos.</p>
       `,
       attachments: [
